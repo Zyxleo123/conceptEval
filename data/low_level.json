@@ -1,0 +1,215 @@
+[
+    {
+        "name": "Size",
+        "knowledges": {
+            "Volume": [
+                {
+                    "gt": [
+                        "Blueberry",
+                        "Basketball",
+                        "Swimming Pool"
+                    ],
+                    "prompt_llm": "Rank these objects from the least volume to the most volume: Blueberry, Basketball, Swimming Pool",
+                    "prompt_t2i": "Create a visually striking image that highlights the volume differences among a blueberry, a basketball, and a swimming pool. Use dramatic lighting to cast shadows that emphasize the relative sizes, with the blueberry in the foreground, the basketball in the midground, and the swimming pool in the background, surrounded by a sunny sky.Realistic."
+                },
+                {
+                    "gt": [
+                        "Pea",
+                        "Soccer Ball",
+                        "Hot Air Balloon"
+                    ],
+                    "prompt_llm": "Rank these objects from the least volume to the most volume: Pea, Soccer Ball, Hot Air Balloon",
+                    "prompt_t2i": "Illustrate the volume differences between a pea, a soccer ball, and a hot air balloon. Ensure the pea is depicted very small on the ground, the soccer ball is at eye level, and the hot air balloon is soaring above against a bright blue sky, with sunlight highlighting the textures of each object.Realistic."
+                },
+                {
+                    "gt": [
+                        "Grape",
+                        "Volleyball",
+                        "Oil Tanker"
+                    ],
+                    "prompt_llm": "Rank these objects from the least volume to the most volume: Grape, Volleyball, Oil Tanker",
+                    "prompt_t2i": "Generate an image showcasing the volume difference among a grape, a volleyball, and an oil tanker. Place the grape on a table, the volleyball in the foreground, and the oil tanker in a harbor setting, with reflections on the water's surface under the midday sun to emphasize their sizes.Realistic."
+                }
+            ],
+            "Height": [
+                {
+                    "gt": [
+                        "Pencil",
+                        "Giraffe",
+                        "Eiffel Tower"
+                    ],
+                    "prompt_llm": "Rank these objects from the least height to the most height: Pencil, Giraffe, Eiffel Tower",
+                    "prompt_t2i": "Design an image that captures the height differences between a pencil, a giraffe, and the Eiffel Tower. Use a perspective view where the pencil is lying flat, the giraffe is standing next to it, and the Eiffel Tower looms in the background, bathed in sunset light.Realistic."
+                },
+                {
+                    "gt": [
+                        "Thumbtack",
+                        "Tree",
+                        "Mount Everest"
+                    ],
+                    "prompt_llm": "Rank these objects from the least height to the most height: Thumbtack, Tree, Mount Everest",
+                    "prompt_t2i": "Illustrate the height differences among a thumbtack, a tree, and Mount Everest. Position the thumbtack on a table in the foreground, the tree nearby, and Mount Everest in the distance, with a clear sky and soft lighting to accentuate the towering mountain.Realistic."
+                },
+                {
+                    "gt": [
+                        "Paperclip",
+                        "Lighthouse",
+                        "Skyscraper"
+                    ],
+                    "prompt_llm": "Rank these objects from the least height to the most height: Paperclip, Lighthouse, Skyscraper",
+                    "prompt_t2i": "Create an image depicting the height differences between a paperclip, a lighthouse, and a skyscraper. Show the paperclip resting on a surface, the lighthouse on the shore, and the skyscraper reaching high into the clouds, illuminated by city lights at dusk.Realistic."
+                }
+            ],
+            "Width": [
+                {
+                    "gt": [
+                        "Smartphone",
+                        "Bed",
+                        "Grand Canyon"
+                    ],
+                    "prompt_llm": "Rank these objects from the least width to the most width: Smartphone, Bed, Grand Canyon",
+                    "prompt_t2i": "Generate an image to emphasize the width differences among a smartphone, a bed, and the Grand Canyon. Position the smartphone on a bedside table, the bed in a cozy room, and the Grand Canyon in the background, bathed in golden hour light to showcase their vast differences.Realistic."
+                },
+                {
+                    "gt": [
+                        "Credit Card",
+                        "Car",
+                        "Airport Runway"
+                    ],
+                    "prompt_llm": "Rank these objects from the least width to the most width: Credit Card, Car, Airport Runway",
+                    "prompt_t2i": "Create an image that illustrates the width differences between a credit card, a car, and an airport runway. Place the credit card flat on a table, the car on a nearby road, and the airport runway stretching into the horizon, with an airplane taking off in the bright daylight.Realistic."
+                },
+                {
+                    "gt": [
+                        "Book",
+                        "House",
+                        "Desert"
+                    ],
+                    "prompt_llm": "Rank these objects from the least width to the most width: Book, House, Desert",
+                    "prompt_t2i": "Design an image that captures the width differences among a book, a house, and a desert. Show the book open on a table, the house in a sunny neighborhood, and the vast desert landscape in the background, with long shadows indicating the time of day.Realistic."
+                }
+            ],
+            "Area": [
+                {
+                    "gt": [
+                        "A4 Paper",
+                        "Tennis Court",
+                        "Lake Superior"
+                    ],
+                    "prompt_llm": "Rank these objects from the least area to the most area: A4 Paper, Tennis Court, Lake Superior",
+                    "prompt_t2i": "Generate an image that emphasizes the area differences between A4 paper, a tennis court, and Lake Superior. Show the A4 paper on a desk, the tennis court with players in action, and Lake Superior stretching out under a clear sky, with sunlight sparkling on the water's surface.Realistic."
+                },
+                {
+                    "gt": [
+                        "Post-it Note",
+                        "Living Room",
+                        "Central Park"
+                    ],
+                    "prompt_llm": "Rank these objects from the least area to the most area: Post-it Note, Living Room, Central Park",
+                    "prompt_t2i": "Create an image that highlights the area differences among a post-it note, a living room, and Central Park. Show the post-it note on a table, the living room as a cozy interior, and Central Park filled with trees and people, all under soft, inviting lighting.Realistic."
+                },
+                {
+                    "gt": [
+                        "Notebook Page",
+                        "Football Field",
+                        "Lake Michigan"
+                    ],
+                    "prompt_llm": "Rank these objects from the least area to the most area: Notebook Page, Football Field, Lake Michigan",
+                    "prompt_t2i": "Illustrate the area differences between a notebook page, a football field, and Lake Michigan. Show the notebook page open on a desk, the football field with players during a game, and Lake Michigan in the distance, shimmering under a bright sun.Realistic."
+                }
+            ]
+        }
+    },
+    {
+        "name": "Shape",
+        "knowledges": {
+            "Curvature": [
+                {
+                    "gt": [
+                        "Book Cover",
+                        "Baseball",
+                        "Globe"
+                    ],
+                    "prompt_llm": "Rank these objects from the least curvature to the most curvature: Book Cover, Baseball, Globe",
+                    "prompt_t2i": "Create a visually striking image that highlights the curvature differences among a book cover, a baseball, and a globe. Use soft, natural lighting to accentuate the curves, and place the objects at different angles to showcase their shapes.Realistic."
+                },
+                {
+                    "gt": [
+                        "Plate",
+                        "Banana",
+                        "Moon"
+                    ],
+                    "prompt_llm": "Rank these objects from the least curvature to the most curvature: Plate, Banana, Moon",
+                    "prompt_t2i": "Create an artistic image that emphasizes the curvature differences between a plate, a banana, and the moon. Use dramatic lighting to create shadows that enhance the shapes, and position the objects in a way that draws the viewer's eye along their curves.Realistic."
+                },
+                {
+                    "gt": [
+                        "Coin",
+                        "Egg",
+                        "Planet"
+                    ],
+                    "prompt_llm": "Rank these objects from the least curvature to the most curvature: Coin, Egg, Planet",
+                    "prompt_t2i": "Create a captivating image that showcases the curvature differences between a coin, an egg, and a planet. Utilize a soft spotlight effect to illuminate the objects, making their curves stand out against a dark background.Realistic."
+                }
+            ],
+            "Symmetry": [
+                {
+                    "gt": [
+                        "Random Scribble",
+                        "Butterfly",
+                        "Snowflake"
+                    ],
+                    "prompt_llm": "Rank these objects from the least symmetry to the most symmetry: Random Scribble, Butterfly, Snowflake",
+                    "prompt_t2i": "Create an engaging image that highlights the symmetry differences between a random scribble, a butterfly, and a snowflake. Use bright, even lighting to make the symmetrical features pop, and arrange the objects in a balanced composition.Realistic."
+                },
+                {
+                    "gt": [
+                        "Freehand Drawing",
+                        "Starfish",
+                        "Flower"
+                    ],
+                    "prompt_llm": "Rank these objects from the least symmetry to the most symmetry: Freehand Drawing, Starfish, Flower",
+                    "prompt_t2i": "Create a vibrant image that emphasizes the symmetry differences among a freehand drawing, a starfish, and a flower. Use natural lighting to enhance the colors and details, and place the objects in a way that highlights their symmetrical attributes.Realistic."
+                },
+                {
+                    "gt": [
+                        "Abstract Art",
+                        "Leaf",
+                        "Crystal"
+                    ],
+                    "prompt_llm": "Rank these objects from the least symmetry to the most symmetry: Abstract Art, Leaf, Crystal",
+                    "prompt_t2i": "Create a thought-provoking image that showcases the symmetry differences between abstract art, a leaf, and a crystal. Use soft, diffused lighting to create a serene atmosphere, allowing the symmetry of each object to shine through.Realistic."
+                }
+            ],
+            "Edge Number": [
+                {
+                    "gt": [
+                        "Clock",
+                        "Paper",
+                        "Jigsaw Puzzle Piece"
+                    ],
+                    "prompt_llm": "Rank these objects from the least number of edges to the most number of edges: Clock, Paper, Jigsaw Puzzle Piece",
+                    "prompt_t2i": "Create an image that emphasizes the edge number differences between a clock, a piece of paper, and a jigsaw puzzle piece. Use focused lighting to highlight the edges, making them more prominent against a simple background.Realistic."
+                },
+                {
+                    "gt": [
+                        "Moon",
+                        "Picnic Blanket",
+                        "Snowflake"
+                    ],
+                    "prompt_llm": "Rank these objects from the least number of edges to the most number of edges: Moon, Picnic Blanket, Snowflake",
+                    "prompt_t2i": "Create an image that showcases the edge number differences among the moon, a picnic blanket, and a snowflake. Use soft ambient lighting to create a gentle contrast, allowing the unique edge profiles of each object to be visible.Realistic."
+                },
+                {
+                    "gt": [
+                        "Coin",
+                        "Table",
+                        "Starfish"
+                    ],
+                    "prompt_llm": "Rank these objects from the least number of edges to the most number of edges: Coin, Table, Starfish",
+                    "prompt_t2i": "Create an image that highlights the edge number differences between a coin, a table, and a starfish. Use dramatic lighting to create interesting shadows and emphasize the various edges of the objects.Realistic."
+                }
+            ]
+        }
+    }
+]
