@@ -10,7 +10,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
-file_handler = logging.FileHandler(os.path.join('answer', 'paligemma-3b-mix-224.log'))
+file_handler = logging.FileHandler(os.path.join('answer', 'paligemma-3b-mix-224-mid-level.log'))
 file_handler.setFormatter(logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s'))
 logger.addHandler(file_handler)
 

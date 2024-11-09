@@ -7,10 +7,11 @@ def query(payload):
 	response = requests.post(API_URL, headers=headers, json=payload)
 	return response.content
 image_bytes = query({
-	"inputs": "A towering giraffe stands beside a small pencil, both dwarfed by the majestic Eiffel Tower in the background. Realistic lighting highlights the height disparity amidst an urban setting, blending nature and architecture."
+	"inputs": "A view of Lake michigan, a notebook and a football field in a realistic style, " + \
+ 			"with the lake michigan being MUCH larger than the notebook and the notebook being MUCH smaller than the football field.",
 })
-# You can access the image with PIL.Image for example
+
 import io
 from PIL import Image
 image = Image.open(io.BytesIO(image_bytes))
-image.save("flux1.0-dev.png", format="png")
+image.save("notebook.png", format="png")

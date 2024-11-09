@@ -1,0 +1,342 @@
+[
+    {
+        "concept": "shape",
+        "sub_concepts": [
+            {
+                "name": "symmetry",
+                "samples": [
+                    {
+                        "gt": [
+                            "boulder",
+                            "book",
+                            "sunflower"
+                        ],
+                        "prefix": "Consider a book, a boulder, and a sunflower. Rank these objects from the least to the most symmetry axis.",
+                        "t2i_prompt": "A hyper-realistic image featuring a perfectly symmetrical sunflower, with its vibrant yellow petals arranged in a flawless, radial pattern, standing tall in a lush green field. Beside it, an irregularly shaped, rough-textured boulder with an asymmetrical form and jagged edges contrasts the sunflower's symmetry. A well-worn, leather-bound book with slightly curled pages lies open on the ground, adding a touch of human presence to the natural scene."
+                    },
+                    {
+                        "gt": [
+                            "rock",
+                            "door",
+                            "starfish"
+                        ],
+                        "prefix": "Consider a starfish, a rock, and a door. Rank these objects from the least to the most symmetry axis.",
+                        "t2i_prompt": "A hyper-realistic scene featuring a perfectly symmetrical starfish, with its arms evenly spaced and mirroring each other in a harmonious pattern, placed on a rugged, asymmetrical rock that has jagged, irregular edges. Behind them, a weathered wooden door stands tall, adding a sense of depth and structure to the composition. The starfish's symmetry is emphasized by its vibrant, uniform color, while the rock's lack of symmetry is highlighted by its rough, uneven texture."
+                    },
+                    {
+                        "gt": [
+                            "pebble",
+                            "fern",
+                            "snowflake"
+                        ],
+                        "prefix": "Consider a fern, a snowflake, and a pebble. Rank these objects from the least to the most symmetry axis.",
+                        "t2i_prompt": "A hyper-realistic scene featuring a perfectly symmetrical, intricately detailed snowflake, with each arm mirroring the others in precise, delicate patterns. The snowflake floats gracefully above a rough, irregularly shaped pebble, whose asymmetrical form and textured surface provide a stark contrast. Nestled beside the pebble, a lush, green fern unfurls its fronds, adding a touch of natural beauty and complexity to the composition. The entire scene is set against a backdrop that ensures all elements are in sharp focus, with no blurring or softening."
+                    }
+                ]
+            },
+            {
+                "name": "curvature",
+                "samples": [
+                    {
+                        "gt": [
+                            "cloud",
+                            "spoon",
+                            "basketball"
+                        ],
+                        "prefix": "Consider a spoon, a basketball, and a cloud. Rank these objects from the least uniform to the most uniform curvature.",
+                        "t2i_prompt": "A hyper-realistic scene featuring a glossy basketball with perfectly smooth and uniform curvature, set against a backdrop of a wispy, irregularly shaped cloud in a bright, clear blue sky. Below, a gleaming silver spoon lies on a bed of lush, green grass. The entire image is in sharp focus, ensuring that no elements or parts of the scene are blurred or out of focus."
+                    },
+                    {
+                        "gt": [
+                            "toast",
+                            "tree branch",
+                            "orange"
+                        ],
+                        "prefix": "Consider an orange, a toast, and a tree branch. Rank these objects from the least uniform to the most uniform curvature.",
+                        "t2i_prompt": "A hyper-realistic scene featuring a perfectly round, smooth orange with uniform curvature, set against a rugged, gnarled tree branch with uneven textures and twists. Below, a piece of toast with irregular, crispy edges and a slightly uneven surface adds a contrasting element. The entire scene is in sharp focus, with no background elements being blurred."
+                    },
+                    {
+                        "gt": [
+                            "coral",
+                            "scythe",
+                            "pear"
+                        ],
+                        "prefix": "Consider a scythe, a pear, and a coral. Rank these objects from the least uniform to the most uniform curvature.",
+                        "t2i_prompt": "A hyper-realistic scene featuring a perfectly smooth and uniformly curved pear, its surface reflecting a gentle sheen. The pear is placed next to an old, rustic scythe with a weathered wooden handle and a slightly curved, gleaming blade. In the background, a piece of coral with intricate, irregular, and highly varied curvature adds a natural, organic texture. The entire scene is set against a backdrop that maintains sharp focus, ensuring no elements are blurred or out of focus."
+                    }
+                ]
+            },
+            {
+                "name": "edge",
+                "samples": [
+                    {
+                        "gt": [
+                            "wheel",
+                            "book",
+                            "starfish"
+                        ],
+                        "prefix": "Consider the outline of the front of a starfish, a wheel, and a book. Rank these objects from the fewest to the most edges.",
+                        "t2i_prompt": "A hyper-realistic scene featuring a well-worn, slightly weathered wheel with smooth, rounded edges, placed next to an open, detailed book with crisp, clear pages and text. A starfish with highly defined, sharp, and intricate edges rests on a sandy beach, creating a striking contrast in textures and details. The wheel's edges are soft and subtle, while the starfish's edges are pronounced and jagged, adding a dynamic visual interplay."
+                    },
+                    {
+                        "gt": [
+                            "egg",
+                            "brick",
+                            "snowflake"
+                        ],
+                        "prefix": "Consider the outline of the front of an egg, a brick, and a snowflake. Rank these objects from the fewest to the most edges.",
+                        "t2i_prompt": "A hyper-realistic scene featuring a pristine, smooth egg with soft, gentle edges, set against the rugged, rough texture of a red brick. Above, a delicate, intricately detailed snowflake with sharp, defined edges floats in the crisp, cold air, creating a striking contrast between the three objects. The background is a clear, icy blue sky, ensuring that no elements are blurred or out of focus."
+                    },
+                    {
+                        "gt": [
+                            "pyramid",
+                            "picture frame",
+                            "sunflower"
+                        ],
+                        "prefix": "Consider the outline of the front of a sunflower, a pyramid, and a picture frame. Rank these objects from the fewest to the most edges.",
+                        "t2i_prompt": "A meticulously detailed, realistic image featuring a grand, ancient pyramid with softly defined edges, standing majestically in the foreground. The pyramid's weathered, sandy texture is rendered with subtle, gradual transitions, giving it a timeless, serene presence. Adjacent to the pyramid, a sleek, modern picture frame hangs in sharp, crisp lines, with its edges clearly defined and accentuated, creating a striking contrast. A vibrant, golden sunflower, with its petals radiating outward, adds a burst of color and life to the scene, set against a clear, blue sky."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "concept": "color",
+        "sub_concepts": [
+            {
+                "name": "hue",
+                "samples": [
+                    {
+                        "gt": [
+                            "eggplant",
+                            "Amber gemstone",
+                            "Clay brick"
+                        ],
+                        "prefix": "Consider a eggplant, an amber gemstone, and a clay brick. Rank these objects from the most bluish to the most reddish hue.",
+                        "t2i_prompt": "A hyper-realistic image featuring a plump, bluish-hued eggplant with a smooth, slightly glossy skin, an amber gemstone that glows with a rich, warm yellowish hue and intricate, faceted surfaces, and a rugged, reddish clay brick with a textured, earthy appearance. The scene is set in a well-lit environment, ensuring that all objects are in sharp focus, with no background elements being blurred."
+                    },
+                    {
+                        "gt": [
+                            "Sapphire",
+                            "Honeycomb",
+                            "Terracotta pottery"
+                        ],
+                        "prefix": "Consider a sapphire, a honeycomb, and terracotta pottery. Rank these objects from the most bluish to the most reddish hue.",
+                        "t2i_prompt": "A meticulously detailed and realistic image showcasing a radiant sapphire with a deep, mesmerizing bluish hue, set against a meticulously structured honeycomb with a warm, golden yellowish hue. The honeycomb's hexagonal cells are perfectly uniform, adding a sense of geometric precision. Below, a piece of terracotta pottery with a rich, earthy reddish hue is placed, its smooth, handcrafted surface catching the light. The entire scene is rendered with sharp focus, ensuring that no elements or background details are blurred, creating a harmonious and visually striking composition."
+                    },
+                    {
+                        "gt": [
+                            "Mussel shell",
+                            "Tawny owl feather",
+                            "Rusty metal"
+                        ],
+                        "prefix": "Consider a mussel shell, a tawny owl feather, and rusty metal. Rank these objects from the most bluish to the most reddish hue.",
+                        "t2i_prompt": "A hyper-realistic image featuring a detailed mussel shell with a subtle bluish hue, showcasing its intricate textures and smooth, curved form. Beside it, a tawny owl feather with a warm yellowish hue, displaying its fine, wispy barbs and natural, slightly irregular curvature. The background includes a piece of rusty metal with a reddish hue, highlighting the rough, weathered surface and the rich, oxidized patina. All elements are in sharp focus, with no background or foreground areas being blurred, creating a cohesive and visually striking composition."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "concept": "size",
+        "sub_concepts": [
+            {
+                "name": "volume",
+                "samples": [
+                    {
+                        "gt": [
+                            "bear",
+                            "tree",
+                            "mountain range"
+                        ],
+                        "prefix": "Consider a tree, a mountain range, and a bear. Rank these objects from the smallest to the largest volume.",
+                        "t2i_prompt": "A hyper-realistic scene featuring a small, detailed bear standing at the base of a towering, ancient tree with rough, textured bark and sprawling branches. Behind them, an imposing mountain range rises majestically, its peaks reaching high into the sky, creating a sense of vast, overwhelming volume. The bear, in contrast, is depicted with a much smaller, more compact form, emphasizing the grand scale of the natural landscape. The entire scene is rendered with sharp focus, ensuring no elements are blurred or out of focus."
+                    },
+                    {
+                        "gt": [
+                            "pebble",
+                            "house",
+                            "island"
+                        ],
+                        "prefix": "Consider a house, a pebble, and an island. Rank these objects from the smallest to the largest volume.",
+                        "t2i_prompt": "A meticulously detailed and realistic image featuring a small, smooth pebble with a fine, natural texture, placed near the foreground. In the middle ground, a charming, rustic house stands, complete with weathered wooden siding and a quaint, thatched roof. The house is set against the backdrop of a vast, expansive island, lush with dense, verdant foliage and surrounded by calm, azure waters. The volume of the island is significantly larger, emphasizing its grand scale, while the pebble's volume is significantly smaller, highlighting its delicate and humble presence."
+                    },
+                    {
+                        "gt": [
+                            "grain of rice",
+                            "car",
+                            "valley"
+                        ],
+                        "prefix": "Consider a car, a valley, and a grain of rice. Rank these objects from the smallest to the largest volume.",
+                        "t2i_prompt": "A hyper-realistic scene featuring a single, delicate grain of rice with a minute volume, placed next to a sleek, modern car with a substantial and defined presence. The expansive, sweeping valley in the background is vast and deep, with its significant volume creating a dramatic and awe-inspiring landscape. The entire image is in sharp focus, with no elements or scenes in the background being blurred."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "concept": "texture",
+        "sub_concepts": [
+                        {
+                "name": "directionality",
+                "samples": [
+                    {
+                        "gt": [
+                            "cheese wedge",
+                            "chainmail",
+                            "zebra"
+                        ],
+                        "prefix": "Consider a cheese wedge, a chainmail, and a zebra. Rank these objects from the least to the most uniform directionality.",
+                        "t2i_prompt": "A hyper-realistic scene featuring a cheese wedge with a spotted, irregular texture, its surface dotted with various hues and bumps. The cheese is placed next to a piece of chainmail, which displays an intricate interwoven pattern of small, linked metal rings, each ring catching the light and adding a sense of depth and detail. In the background, a zebra stands proudly, its coat adorned with striking, parallel, and highly directional black and white stripes that run smoothly along its body, creating a strong visual contrast. The entire image is in sharp focus, with no elements or scenes in the background being blurred."
+                    },
+                    {
+                        "gt": [
+                            "sponge",
+                            "basket",
+                            "barcode"
+                        ],
+                        "prefix": "Consider a sponge, a basket, and a barcode. Rank these objects from the least to the most uniform directionality.",
+                        "t2i_prompt": "A highly detailed and realistic image featuring a sponge with a rough, spotted texture, a meticulously woven basket made of interlaced, slightly directional fibers, and a barcode with sharply defined, parallel stripes. The barcode's high directionality stands out, creating a striking contrast against the more organic textures of the sponge and the basket. The scene is set in a well-lit environment, ensuring that all elements are in sharp focus and no part of the background is blurred."
+                    },
+                    {
+                        "gt": [
+                            "cheetah",
+                            "fish net",
+                            "american flag"
+                        ],
+                        "prefix": "Consider a cheetah, a fish net, and an American flag. Rank these objects from the least to the most uniform directionality.",
+                        "t2i_prompt": "A hyper-realistic scene featuring a sleek, agile cheetah with its distinctive, irregularly spotted fur, set against a backdrop of a meticulously interwoven fish net. The American flag stands out prominently in the background, with its clearly defined alternating red and white stripes and sharp, directional lines, creating a strong sense of directionality. The cheetah's muscular form and the intricate details of the fish net are rendered with high precision, ensuring that no part of the image is blurred or out of focus."
+                    }
+                ]
+            },
+            {
+                "name": "fineness",
+                "samples": [
+                    {
+                        "gt": [
+                            "rope",
+                            "basketball",
+                            "silk curtain"
+                        ],
+                        "prefix": "Consider a silk curtain, a basketball, and rope. Rank these objects from the lowest to the highest fineness.",
+                        "t2i_prompt": "A hyper-realistic image featuring a luxuriously fine and smooth silk curtain, cascading elegantly with a flawless, bump-free surface. Adjacent to the curtain is a basketball with a medium level of fineness, showcasing a slightly visible texture that still maintains a nearly pure and smooth appearance. Completing the scene is a rugged rope, full of visible bumps and unevenness, adding a stark textural contrast. The entire composition is set in a well-lit, detailed environment, ensuring no items or scenes are blurred or out of focus."
+                    },
+                    {
+                        "gt": [
+                            "tree bark",
+                            "waffle",
+                            "pillow"
+                        ],
+                        "prefix": "Consider a pillow, tree bark, and an waffle. Rank these objects from the lowest to the highest fineness.",
+                        "t2i_prompt": "A hyper-realistic image featuring a plush, smooth, and soft pillow with an incredibly fine texture, placed beside a golden-brown waffle that exhibits a medium level of fineness, with its grid-like pattern clearly visible but still maintaining a sense of purity and uniformity. In the background, a piece of tree bark with a highly rugged and uneven surface, full of rough, bumpy textures, provides a stark contrast to the smoothness of the pillow and the moderate texture of the waffle. The entire scene is rendered in sharp focus, ensuring that no elements are blurred or out of focus, creating a visually striking and detailed composition."
+                    },
+                    {
+                        "gt": [
+                            "pebble road",
+                            "tennis ball",
+                            "dress"
+                        ],
+                        "prefix": "Consider a dress, a pebble road, and a tennis ball. Rank these objects from the lowest to the highest fineness.",
+                        "t2i_prompt": "A meticulously detailed scene featuring a luxuriously smooth and finely crafted dress, exuding elegance and purity, placed beside a moderately textured tennis ball that still retains a sense of cleanliness and uniformity. The setting is a rugged, pebble-strewn road, with each pebble distinctly rough and uneven, adding a stark contrast to the refined dress and the almost pure, yet slightly textured tennis ball. The entire image is in sharp focus, ensuring that no elements are blurred or out of focus."
+                    }
+                ]
+            },
+            {
+                "name": "regularity",
+                "samples": [
+                    {
+                        "gt": [
+                            "bouquet",
+                            "cracked earth",
+                            "plaid shirt"
+                        ],
+                        "prefix": "Consider a bouquet, cracked earth, and a plaid shirt. Rank these objects from the lowest to the highest regularity, where low regularity means more randomness and high regularity means a clearly structured, repeating pattern.",
+                        "t2i_prompt": "A hyper-realistic image featuring a vibrant, randomly arranged bouquet of wildflowers with a mix of colors and textures, set against a backdrop of cracked, parched earth displaying intricate, irregular fissures. Laid across the rugged terrain is a neatly folded plaid shirt, showcasing a structured, repeating pattern of intersecting stripes in complementary colors. The scene is rich in detail, with no elements or background areas being blurred or out of focus."
+                    },
+                    {
+                        "gt": [
+                            "haystack",
+                            "gravel path",
+                            "brick wall"
+                        ],
+                        "prefix": "Consider a haystack, gravel path, and a brick wall. Rank these objects from the lowest to the highest regularity, with low regularity being random and high regularity being uniform and structured.",
+                        "t2i_prompt": "A meticulously detailed, hyper-realistic image featuring a disorganized, golden haystack with loose, scattered straw and a slightly sunken center. The gravel path meanders through the scene, composed of irregularly shaped, variously sized stones that create an uneven, natural texture. A sturdy brick wall stands in the background, with uniform, repeating red bricks laid out in precise, straight lines, adding a sense of order to the otherwise organic and chaotic elements. The entire scene is rendered with crisp, clear focus, ensuring no part of the background is blurred."
+                    },
+                    {
+                        "gt": [
+                            "pile of leaves",
+                            "wooden deck",
+                            "checkerboard"
+                        ],
+                        "prefix": "Consider a pile of leaves, a wooden deck, and a checkerboard. Rank these objects from the lowest to the highest regularity, where low regularity is more random and high regularity is highly structured.",
+                        "t2i_prompt": "A hyper-realistic image featuring a chaotic pile of autumn leaves, with a rich array of reds, oranges, and yellows, scattered haphazardly. The leaves are set against a well-constructed wooden deck, where the planks are neatly arranged and show a warm, natural wood grain. In the foreground, a pristine checkerboard with an even, repeating pattern of black and white squares adds a touch of geometric precision to the scene. The contrast between the organic, disordered leaves and the structured, organized elements of the wooden deck and checkerboard creates a visually compelling and balanced composition."
+                    }
+                ]
+            },
+            {
+                "name": "reflectivity",
+                "samples": [
+                    {
+                        "gt": [
+                            "grass",
+                            "water surface",
+                            "stainless steel plate"
+                        ],
+                        "prefix": "Consider a water surface, a stainless steel plate, and grass. Rank these objects from the lowest to the highest reflectivity.",
+                        "t2i_prompt": "A hyper-realistic image featuring a highly polished, mirror-like stainless steel plate that reflects its surroundings with exceptional clarity, set against a tranquil water surface with gentle ripples. The water has a moderate level of reflectivity, capturing the subtle play of light and shadow. Below, lush, verdant grass spreads out, with its natural, matte texture absorbing light and showing minimal reflectivity, creating a rich, contrasting visual experience."
+                    },
+                    {
+                        "gt": [
+                            "soil",
+                            "lake",
+                            "mirror"
+                        ],
+                        "prefix": "Consider a lake, a mirror, and soil. Rank these objects from the lowest to the highest reflectivity.",
+                        "t2i_prompt": "A hyper-realistic scene featuring a pristine, highly reflective mirror that captures every detail with stunning clarity. The mirror is placed on the edge of a serene, crystal-clear lake, which also reflects the surrounding landscape but with a slightly softer and more natural shimmer. The ground is covered in rich, dark soil with a matte finish, absorbing light and creating a stark contrast to the gleaming surfaces of the mirror and the lake. The overall composition highlights the varying degrees of reflectivity, from the ultra-shiny mirror to the subtle sheen of the water and the nearly non-reflective, earthy texture of the soil."
+                    },
+                    {
+                        "gt": [
+                            "moss",
+                            "pond",
+                            "aluminum foil"
+                        ],
+                        "prefix": "Consider aluminum foil, moss, and a pond. Rank these objects from the lowest to the highest reflectivity.",
+                        "t2i_prompt": "A hyper-realistic scene featuring a crinkled sheet of aluminum foil with highly reflective, gleaming surfaces, set against the serene backdrop of a tranquil pond. The water in the pond is calm and clear, reflecting the surrounding environment with a natural, subtle sheen. Surrounding the pond, lush, velvety moss carpets the ground, its soft, matte texture absorbing light and providing a striking contrast to the shimmering aluminum foil."
+                    }
+                ]
+            },
+            {
+                "name": "transparency",
+                "samples": [
+                    {
+                        "gt": [
+                            "brick",
+                            "plastic film",
+                            "glass"
+                        ],
+                        "prefix": "Consider plastic film, a brick, and glass. Rank these objects from the lowest to the highest transparency.",
+                        "t2i_prompt": "A hyper-realistic scene featuring a crystal-clear, highly transparent glass object that allows light to pass through effortlessly, set against a rough, opaque red brick with no transparency at all. In the background, a slightly translucent plastic film with a subtle sheen adds a layer of visual interest, all placed on a neutral, well-lit surface to ensure every detail is in sharp focus."
+                    },
+                    {
+                        "gt": [
+                            "concrete wall",
+                            "plastic sheet",
+                            "car windshield"
+                        ],
+                        "prefix": "Consider a clear plastic sheet, a concrete wall, and car windshield. Rank these objects from the lowest to the highest transparency.",
+                        "t2i_prompt": "A highly detailed and realistic image featuring a car windshield with exceptional transparency, allowing an unobstructed view through it. The windshield is set against a rugged, solid concrete wall that appears dense and opaque, with a clear plastic sheet gently draped over a portion of the wall. The clear plastic sheet has a moderate level of transparency, creating a subtle contrast between the nearly invisible windshield and the completely opaque concrete wall. The scene is bathed in natural light, highlighting the textures and details of each element, with no part of the background or any object being blurred or out of focus."
+                    },
+                    {
+                        "gt": [
+                            "pillow",
+                            "silk curtain",
+                            "empty glass"
+                        ],
+                        "prefix": "Consider an empty glass, a pillow, and a silk curtain. Rank these objects from the lowest to the highest transparency.",
+                        "t2i_prompt": "A hyper-realistic image featuring an empty, crystal-clear glass with high transparency, allowing a clear view through it. The glass is placed on a soft, plush pillow that appears almost opaque, adding a sense of warmth and comfort. A luxurious, flowing silk curtain in the background drapes elegantly, with a subtle sheen that complements the overall scene. The transparency of the glass is significantly higher, creating a striking contrast with the dense, velvety texture of the pillow."
+                    }
+                ]
+            }
+        ]
+    }
+]

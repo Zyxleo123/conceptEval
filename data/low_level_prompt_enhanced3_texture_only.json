@@ -1,0 +1,342 @@
+[
+    {
+        "concept": "shape",
+        "sub_concepts": [
+            {
+                "name": "symmetry",
+                "samples": [
+                    {
+                        "gt": [
+                            "boulder",
+                            "book",
+                            "sunflower"
+                        ],
+                        "prefix": "Consider a book, a boulder, and a sunflower. Rank these objects from the least to the most symmetry axis.",
+                        "t2i_prompt": "A realistic image with a sunflower, a boulder, and a book. With the magnitude of SYMMETRY significantly higher for the sunflower, and the magnitude of SYMMETRY significantly lower for the boulder."
+                    },
+                    {
+                        "gt": [
+                            "rock",
+                            "door",
+                            "starfish"
+                        ],
+                        "prefix": "Consider a starfish, a rock, and a door. Rank these objects from the least to the most symmetry axis.",
+                        "t2i_prompt": "A realistic image with a starfish, a rock, and a door. With the magnitude of SYMMETRY significantly higher for the starfish, and the magnitude of SYMMETRY significantly lower for the rock."
+                    },
+                    {
+                        "gt": [
+                            "pebble",
+                            "fern",
+                            "snowflake"
+                        ],
+                        "prefix": "Consider a fern, a snowflake, and a pebble. Rank these objects from the least to the most symmetry axis.",
+                        "t2i_prompt": "A realistic image with a snowflake, a pebble, and a fern. With the magnitude of SYMMETRY significantly higher for the snowflake, and the magnitude of SYMMETRY significantly lower for the pebble."
+                    }
+                ]
+            },
+            {
+                "name": "curvature",
+                "samples": [
+                    {
+                        "gt": [
+                            "cloud",
+                            "spoon",
+                            "basketball"
+                        ],
+                        "prefix": "Consider a spoon, a basketball, and a cloud. Rank these objects from the least uniform to the most uniform curvature.",
+                        "t2i_prompt": "A realistic image with a basketball, a cloud, and a spoon. With the magnitude of CURVATURE significantly more uniform for the basketball, and the magnitude of CURVATURE significantly less uniform for the cloud."
+                    },
+                    {
+                        "gt": [
+                            "toast",
+                            "tree branch",
+                            "orange"
+                        ],
+                        "prefix": "Consider an orange, a toast, and a tree branch. Rank these objects from the least uniform to the most uniform curvature.",
+                        "t2i_prompt": "A realistic image with an orange, a tree branch, and a toast. With the magnitude of CURVATURE significantly more uniform for the orange, and the magnitude of CURVATURE significantly less uniform for the toast."
+                    },
+                    {
+                        "gt": [
+                            "coral",
+                            "scythe",
+                            "pear"
+                        ],
+                        "prefix": "Consider a scythe, a pear, and a coral. Rank these objects from the least uniform to the most uniform curvature.",
+                        "t2i_prompt": "A realistic image with a pear, a scythe, and a coral. With the magnitude of CURVATURE significantly more uniform for the pear, and the magnitude of CURVATURE significantly less uniform for the coral."
+                    }
+                ]
+            },
+            {
+                "name": "edge",
+                "samples": [
+                    {
+                        "gt": [
+                            "wheel",
+                            "book",
+                            "starfish"
+                        ],
+                        "prefix": "Consider the outline of the front of a starfish, a wheel, and a book. Rank these objects from the fewest to the most edges.",
+                        "t2i_prompt": "A realistic image with a wheel, a book, and a starfish. With the magnitude of EDGE significantly higher for the starfish, and the magnitude of EDGE significantly lower for the wheel."
+                    },
+                    {
+                        "gt": [
+                            "egg",
+                            "brick",
+                            "snowflake"
+                        ],
+                        "prefix": "Consider the outline of the front of an egg, a brick, and a snowflake. Rank these objects from the fewest to the most edges.",
+                        "t2i_prompt": "A realistic image with an egg, a brick, and a snowflake. With the magnitude of EDGE significantly higher for the snowflake, and the magnitude of EDGE significantly lower for the egg."
+                    },
+                    {
+                        "gt": [
+                            "pyramid",
+                            "picture frame",
+                            "sunflower"
+                        ],
+                        "prefix": "Consider the outline of the front of a sunflower, a pyramid, and a picture frame. Rank these objects from the fewest to the most edges.",
+                        "t2i_prompt": "A realistic image with a pyramid, a picture frame, and a sunflower. With the magnitude of EDGE significantly higher for the picture frame, and the magnitude of EDGE significantly lower for the pyramid."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "concept": "color",
+        "sub_concepts": [
+            {
+                "name": "hue",
+                "samples": [
+                    {
+                        "gt": [
+                            "Amber gemstone",
+                            "eggplant",
+                            "Clay brick"
+                        ],
+                        "prefix": "Consider a eggplant, an amber gemstone, and a clay brick. Rank these objects from the most bluish to the most reddish hue.",
+                        "t2i_prompt": "A realistic image with a eggplant, an amber gemstone, and a clay brick. The eggpant has a bluish hue, the gemstone has a yellowish hue, and the brick has a reddish hue."
+                    },
+                    {
+                        "gt": [
+                            "Honeycomb",
+                            "Terracotta pottery",
+                            "Sapphire"
+                        ],
+                        "prefix": "Consider a sapphire, a honeycomb, and terracotta pottery. Rank these objects from the most bluish to the most reddish hue.",
+                        "t2i_prompt": "A realistic image showing a sapphire, a honeycomb, and terracotta pottery. The sapphire has a bluish hue, the honeycomb has a yellowish hue, and the pottery has a reddish hue."
+                    },
+                    {
+                        "gt": [
+                            "Mussel shell",
+                            "Rusty metal",
+                            "Tawny owl feather"
+                        ],
+                        "prefix": "Consider a mussel shell, a tawny owl feather, and rusty metal. Rank these objects from the most bluish to the most reddish hue.",
+                        "t2i_prompt": "A realistic image with a mussel shell, tawny owl feather, and rusty metal. The shell has a bluish hue, the feather has a yellowish hue, and the metal has a reddish hue."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "concept": "size",
+        "sub_concepts": [
+            {
+                "name": "volume",
+                "samples": [
+                    {
+                        "gt": [
+                            "bear",
+                            "tree",
+                            "mountain range"
+                        ],
+                        "prefix": "Consider a tree, a mountain range, and a bear. Rank these objects from the smallest to the largest volume.",
+                        "t2i_prompt": "A realistic image with a bear, a tree, and a mountain range. With the magnitude of VOLUME significantly larger for the mountain range, and the magnitude of VOLUME significantly smaller for the bear."
+                    },
+                    {
+                        "gt": [
+                            "pebble",
+                            "house",
+                            "island"
+                        ],
+                        "prefix": "Consider a house, a pebble, and an island. Rank these objects from the smallest to the largest volume.",
+                        "t2i_prompt": "A realistic image with a pebble, a house, and an island. With the magnitude of VOLUME significantly larger for the island, and the magnitude of VOLUME significantly smaller for the pebble."
+                    },
+                    {
+                        "gt": [
+                            "grain of rice",
+                            "car",
+                            "valley"
+                        ],
+                        "prefix": "Consider a car, a valley, and a grain of rice. Rank these objects from the smallest to the largest volume.",
+                        "t2i_prompt": "A realistic image with a grain of rice, a car, and a valley. With the magnitude of VOLUME significantly larger for the valley, and the magnitude of VOLUME significantly smaller for the grain of rice."
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "concept": "texture",
+        "sub_concepts": [
+            {
+                "name": "directionality",
+                "samples": [
+                    {
+                        "gt": [
+                            "cheese wedge",
+                            "chainmail",
+                            "zebra"
+                        ],
+                        "prefix": "Consider a cheese wedge, a chainmail, and a zebra. Rank these objects from the least to the most uniform directionality.",
+                        "t2i_prompt": "A hyper-realistic scene featuring a cheese wedge with a spotted, irregular texture, its surface dotted with various hues and bumps. The cheese is placed next to a piece of chainmail, which displays an intricate interwoven pattern of small, linked metal rings, each ring catching the light and adding a sense of depth and detail. In the background, a zebra stands proudly, its coat adorned with striking, parallel, and highly directional black and white stripes that run smoothly along its body, creating a strong visual contrast. The entire image is in sharp focus, with no elements or scenes in the background being blurred."
+                    },
+                    {
+                        "gt": [
+                            "sponge",
+                            "basket",
+                            "barcode"
+                        ],
+                        "prefix": "Consider a sponge, a basket, and a barcode. Rank these objects from the least to the most uniform directionality.",
+                        "t2i_prompt": "A highly detailed and realistic image featuring a sponge with a rough, spotted texture, a meticulously woven basket made of interlaced, slightly directional fibers, and a barcode with sharply defined, parallel stripes. The barcode's high directionality stands out, creating a striking contrast against the more organic textures of the sponge and the basket. The scene is set in a well-lit environment, ensuring that all elements are in sharp focus and no part of the background is blurred."
+                    },
+                    {
+                        "gt": [
+                            "cheetah",
+                            "fish net",
+                            "american flag"
+                        ],
+                        "prefix": "Consider a cheetah, a fish net, and an American flag. Rank these objects from the least to the most uniform directionality.",
+                        "t2i_prompt": "A hyper-realistic scene featuring a sleek, agile cheetah with its distinctive, irregularly spotted fur, set against a backdrop of a meticulously interwoven fish net. The American flag stands out prominently in the background, with its clearly defined alternating red and white stripes and sharp, directional lines, creating a strong sense of directionality. The cheetah's muscular form and the intricate details of the fish net are rendered with high precision, ensuring that no part of the image is blurred or out of focus."
+                    }
+                ]
+            },
+            {
+                "name": "fineness",
+                "samples": [
+                    {
+                        "gt": [
+                            "rope",
+                            "basketball",
+                            "silk curtain"
+                        ],
+                        "prefix": "Consider a silk curtain, a basketball, and rope. Rank these objects from the lowest to the highest fineness.",
+                        "t2i_prompt": "A hyper-realistic image featuring a luxuriously fine and smooth silk curtain, cascading elegantly with a flawless, bump-free surface. Adjacent to the curtain is a basketball with a medium level of fineness, showcasing a slightly visible texture that still maintains a nearly pure and smooth appearance. Completing the scene is a rugged rope, full of visible bumps and unevenness, adding a stark textural contrast. The entire composition is set in a well-lit, detailed environment, ensuring no items or scenes are blurred or out of focus."
+                    },
+                    {
+                        "gt": [
+                            "tree bark",
+                            "leather wallet",
+                            "pillow"
+                        ],
+                        "prefix": "Consider a pillow, tree bark, and a leather wallet. Rank these objects from the lowest to the highest fineness.",
+                        "t2i_prompt": "A hyper-realistic scene featuring a plush, finely detailed pillow with an incredibly smooth and soft surface, capturing the essence of comfort. Beside it, a leather wallet with a medium level of fineness, showing a subtle yet distinct texture that highlights its quality and craftsmanship. The tree bark in the background is rendered with a highly tactile, rough, and uneven surface, full of natural bumps and ridges. The pillow, wallet, and tree bark are all in sharp focus, creating a rich, textural contrast that emphasizes their unique characteristics."
+                    },
+                    {
+                        "gt": [
+                            "pebble road",
+                            "tennis ball",
+                            "dress"
+                        ],
+                        "prefix": "Consider a dress, a pebble road, and a tennis ball. Rank these objects from the lowest to the highest fineness.",
+                        "t2i_prompt": "A meticulously detailed scene featuring a luxuriously smooth and finely crafted dress, exuding elegance and purity, placed beside a moderately textured tennis ball that still retains a sense of cleanliness and uniformity. The setting is a rugged, pebble-strewn road, with each pebble distinctly rough and uneven, adding a stark contrast to the refined dress and the almost pure, yet slightly textured tennis ball. The entire image is in sharp focus, ensuring that no elements are blurred or out of focus."
+                    }
+                ]
+            },
+            {
+                "name": "regularity",
+                "samples": [
+                    {
+                        "gt": [
+                            "bouquet",
+                            "cracked earth",
+                            "plaid shirt"
+                        ],
+                        "prefix": "Consider a bouquet, cracked earth, and a plaid shirt. Rank these objects from the lowest to the highest regularity, where low regularity means more randomness and high regularity means a clearly structured, repeating pattern.",
+                        "t2i_prompt": "A hyper-realistic image featuring a vibrant, randomly arranged bouquet of wildflowers with a mix of colors and textures, set against a backdrop of cracked, parched earth displaying intricate, irregular fissures. Laid across the rugged terrain is a neatly folded plaid shirt, showcasing a structured, repeating pattern of intersecting stripes in complementary colors. The scene is rich in detail, with no elements or background areas being blurred or out of focus."
+                    },
+                    {
+                        "gt": [
+                            "haystack",
+                            "gravel path",
+                            "brick wall"
+                        ],
+                        "prefix": "Consider a haystack, gravel path, and a brick wall. Rank these objects from the lowest to the highest regularity, with low regularity being random and high regularity being uniform and structured.",
+                        "t2i_prompt": "A meticulously detailed, hyper-realistic image featuring a disorganized, golden haystack with loose, scattered straw and a slightly sunken center. The gravel path meanders through the scene, composed of irregularly shaped, variously sized stones that create an uneven, natural texture. A sturdy brick wall stands in the background, with uniform, repeating red bricks laid out in precise, straight lines, adding a sense of order to the otherwise organic and chaotic elements. The entire scene is rendered with crisp, clear focus, ensuring no part of the background is blurred."
+                    },
+                    {
+                        "gt": [
+                            "pile of leaves",
+                            "wooden deck",
+                            "checkerboard"
+                        ],
+                        "prefix": "Consider a pile of leaves, a wooden deck, and a checkerboard. Rank these objects from the lowest to the highest regularity, where low regularity is more random and high regularity is highly structured.",
+                        "t2i_prompt": "A hyper-realistic image featuring a chaotic pile of autumn leaves, with a rich array of reds, oranges, and yellows, scattered haphazardly. The leaves are set against a well-constructed wooden deck, where the planks are neatly arranged and show a warm, natural wood grain. In the foreground, a pristine checkerboard with an even, repeating pattern of black and white squares adds a touch of geometric precision to the scene. The contrast between the organic, disordered leaves and the structured, organized elements of the wooden deck and checkerboard creates a visually compelling and balanced composition."
+                    }
+                ]
+            },
+            {
+                "name": "reflectivity",
+                "samples": [
+                    {
+                        "gt": [
+                            "grass",
+                            "water surface",
+                            "stainless steel plate"
+                        ],
+                        "prefix": "Consider a water surface, a stainless steel plate, and grass. Rank these objects from the lowest to the highest reflectivity.",
+                        "t2i_prompt": "A realistic image with a stainless steel plate, a water surface, and grass. With the magnitude of REFLECTIVITY significantly higher for the stainless steel plate, and the magnitude of REFLECTIVITY significantly lower for the grass."
+                    },
+                    {
+                        "gt": [
+                            "soil",
+                            "lake",
+                            "mirror"
+                        ],
+                        "prefix": "Consider a lake, a mirror, and soil. Rank these objects from the lowest to the highest reflectivity.",
+                        "t2i_prompt": "A realistic image with a mirror, a lake, and soil. With the magnitude of REFLECTIVITY significantly higher for the mirror, and the magnitude of REFLECTIVITY significantly lower for the soil."
+                    },
+                    {
+                        "gt": [
+                            "moss",
+                            "pond",
+                            "aluminum foil"
+                        ],
+                        "prefix": "Consider aluminum foil, moss, and a pond. Rank these objects from the lowest to the highest reflectivity.",
+                        "t2i_prompt": "A realistic image with aluminum foil, a pond, and moss. With the magnitude of REFLECTIVITY significantly higher for the aluminum foil, and the magnitude of REFLECTIVITY significantly lower for the moss."
+                    }
+                ]
+            },
+            {
+                "name": "transparency",
+                "samples": [
+                    {
+                        "gt": [
+                            "brick",
+                            "plastic film",
+                            "glass"
+                        ],
+                        "prefix": "Consider plastic film, a brick, and glass. Rank these objects from the lowest to the highest transparency.",
+                        "t2i_prompt": "A realistic image with glass, a brick, and plastic film. With the magnitude of TRANSPARENCY significantly higher for the glass, and the magnitude of TRANSPARENCY significantly lower for the brick."
+                    },
+                    {
+                        "gt": [
+                            "concrete wall",
+                            "plastic sheet",
+                            "car windshield"
+                        ],
+                        "prefix": "Consider a clear plastic sheet, a concrete wall, and car windshield. Rank these objects from the lowest to the highest transparency.",
+                        "t2i_prompt": "A realistic image with a car windshield, a concrete wall, and a clear plastic sheet. With the magnitude of TRANSPARENCY significantly higher for the window pane, and the magnitude of TRANSPARENCY significantly lower for the concrete wall."
+                    },
+                    {
+                        "gt": [
+                            "pillow",
+                            "silk curtain",
+                            "empty glass"
+                        ],
+                        "prefix": "Consider an empty glass, a pillow, and a silk curtain. Rank these objects from the lowest to the highest transparency.",
+                        "t2i_prompt": "A realistic image with an empty glass, a pillow, and a silk curtain. With the magnitude of TRANSPARENCY significantly higher for the acrylic block, and the magnitude of TRANSPARENCY significantly lower for the pillow."
+                    }
+                ]
+            }
+        ]
+    }
+]

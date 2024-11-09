@@ -9,6 +9,6 @@
 !src/**
 
 !data/
-!data/low_level.json
+!data/low_level*.json
 !data/mid_level.json
 !data/vicuna_mid_level.json

@@ -1,215 +1,222 @@
 [
-    {
-        "name": "Size",
-        "knowledges": {
-            "Volume": [
-                {
-                    "gt": [
-                        "Blueberry",
-                        "Basketball",
-                        "Swimming Pool"
-                    ],
-                    "prompt_llm": "Rank these objects from the least volume to the most volume: Blueberry, Basketball, Swimming Pool",
-                    "prompt_t2i": "Create a visually striking image that highlights the volume differences among a blueberry, a basketball, and a swimming pool. Use dramatic lighting to cast shadows that emphasize the relative sizes, with the blueberry in the foreground, the basketball in the midground, and the swimming pool in the background, surrounded by a sunny sky.Realistic."
-                },
-                {
-                    "gt": [
-                        "Pea",
-                        "Soccer Ball",
-                        "Hot Air Balloon"
-                    ],
-                    "prompt_llm": "Rank these objects from the least volume to the most volume: Pea, Soccer Ball, Hot Air Balloon",
-                    "prompt_t2i": "Illustrate the volume differences between a pea, a soccer ball, and a hot air balloon. Ensure the pea is depicted very small on the ground, the soccer ball is at eye level, and the hot air balloon is soaring above against a bright blue sky, with sunlight highlighting the textures of each object.Realistic."
-                },
-                {
-                    "gt": [
-                        "Grape",
-                        "Volleyball",
-                        "Oil Tanker"
-                    ],
-                    "prompt_llm": "Rank these objects from the least volume to the most volume: Grape, Volleyball, Oil Tanker",
-                    "prompt_t2i": "Generate an image showcasing the volume difference among a grape, a volleyball, and an oil tanker. Place the grape on a table, the volleyball in the foreground, and the oil tanker in a harbor setting, with reflections on the water's surface under the midday sun to emphasize their sizes.Realistic."
-                }
-            ],
-            "Height": [
-                {
-                    "gt": [
-                        "Pencil",
-                        "Giraffe",
-                        "Eiffel Tower"
-                    ],
-                    "prompt_llm": "Rank these objects from the least height to the most height: Pencil, Giraffe, Eiffel Tower",
-                    "prompt_t2i": "Design an image that captures the height differences between a pencil, a giraffe, and the Eiffel Tower. Use a perspective view where the pencil is lying flat, the giraffe is standing next to it, and the Eiffel Tower looms in the background, bathed in sunset light.Realistic."
-                },
-                {
-                    "gt": [
-                        "Thumbtack",
-                        "Tree",
-                        "Mount Everest"
-                    ],
-                    "prompt_llm": "Rank these objects from the least height to the most height: Thumbtack, Tree, Mount Everest",
-                    "prompt_t2i": "Illustrate the height differences among a thumbtack, a tree, and Mount Everest. Position the thumbtack on a table in the foreground, the tree nearby, and Mount Everest in the distance, with a clear sky and soft lighting to accentuate the towering mountain.Realistic."
-                },
-                {
-                    "gt": [
-                        "Paperclip",
-                        "Lighthouse",
-                        "Skyscraper"
-                    ],
-                    "prompt_llm": "Rank these objects from the least height to the most height: Paperclip, Lighthouse, Skyscraper",
-                    "prompt_t2i": "Create an image depicting the height differences between a paperclip, a lighthouse, and a skyscraper. Show the paperclip resting on a surface, the lighthouse on the shore, and the skyscraper reaching high into the clouds, illuminated by city lights at dusk.Realistic."
-                }
-            ],
-            "Width": [
-                {
-                    "gt": [
-                        "Smartphone",
-                        "Bed",
-                        "Grand Canyon"
-                    ],
-                    "prompt_llm": "Rank these objects from the least width to the most width: Smartphone, Bed, Grand Canyon",
-                    "prompt_t2i": "Generate an image to emphasize the width differences among a smartphone, a bed, and the Grand Canyon. Position the smartphone on a bedside table, the bed in a cozy room, and the Grand Canyon in the background, bathed in golden hour light to showcase their vast differences.Realistic."
-                },
-                {
-                    "gt": [
-                        "Credit Card",
-                        "Car",
-                        "Airport Runway"
-                    ],
-                    "prompt_llm": "Rank these objects from the least width to the most width: Credit Card, Car, Airport Runway",
-                    "prompt_t2i": "Create an image that illustrates the width differences between a credit card, a car, and an airport runway. Place the credit card flat on a table, the car on a nearby road, and the airport runway stretching into the horizon, with an airplane taking off in the bright daylight.Realistic."
-                },
-                {
-                    "gt": [
-                        "Book",
-                        "House",
-                        "Desert"
-                    ],
-                    "prompt_llm": "Rank these objects from the least width to the most width: Book, House, Desert",
-                    "prompt_t2i": "Design an image that captures the width differences among a book, a house, and a desert. Show the book open on a table, the house in a sunny neighborhood, and the vast desert landscape in the background, with long shadows indicating the time of day.Realistic."
-                }
-            ],
-            "Area": [
-                {
-                    "gt": [
-                        "A4 Paper",
-                        "Tennis Court",
-                        "Lake Superior"
-                    ],
-                    "prompt_llm": "Rank these objects from the least area to the most area: A4 Paper, Tennis Court, Lake Superior",
-                    "prompt_t2i": "Generate an image that emphasizes the area differences between A4 paper, a tennis court, and Lake Superior. Show the A4 paper on a desk, the tennis court with players in action, and Lake Superior stretching out under a clear sky, with sunlight sparkling on the water's surface.Realistic."
-                },
-                {
-                    "gt": [
-                        "Post-it Note",
-                        "Living Room",
-                        "Central Park"
-                    ],
-                    "prompt_llm": "Rank these objects from the least area to the most area: Post-it Note, Living Room, Central Park",
-                    "prompt_t2i": "Create an image that highlights the area differences among a post-it note, a living room, and Central Park. Show the post-it note on a table, the living room as a cozy interior, and Central Park filled with trees and people, all under soft, inviting lighting.Realistic."
-                },
-                {
-                    "gt": [
-                        "Notebook Page",
-                        "Football Field",
-                        "Lake Michigan"
-                    ],
-                    "prompt_llm": "Rank these objects from the least area to the most area: Notebook Page, Football Field, Lake Michigan",
-                    "prompt_t2i": "Illustrate the area differences between a notebook page, a football field, and Lake Michigan. Show the notebook page open on a desk, the football field with players during a game, and Lake Michigan in the distance, shimmering under a bright sun.Realistic."
-                }
-            ]
-        }
-    },
-    {
-        "name": "Shape",
-        "knowledges": {
-            "Curvature": [
-                {
-                    "gt": [
-                        "Book Cover",
-                        "Baseball",
-                        "Globe"
-                    ],
-                    "prompt_llm": "Rank these objects from the least curvature to the most curvature: Book Cover, Baseball, Globe",
-                    "prompt_t2i": "Create a visually striking image that highlights the curvature differences among a book cover, a baseball, and a globe. Use soft, natural lighting to accentuate the curves, and place the objects at different angles to showcase their shapes.Realistic."
-                },
-                {
-                    "gt": [
-                        "Plate",
-                        "Banana",
-                        "Moon"
-                    ],
-                    "prompt_llm": "Rank these objects from the least curvature to the most curvature: Plate, Banana, Moon",
-                    "prompt_t2i": "Create an artistic image that emphasizes the curvature differences between a plate, a banana, and the moon. Use dramatic lighting to create shadows that enhance the shapes, and position the objects in a way that draws the viewer's eye along their curves.Realistic."
-                },
-                {
-                    "gt": [
-                        "Coin",
-                        "Egg",
-                        "Planet"
-                    ],
-                    "prompt_llm": "Rank these objects from the least curvature to the most curvature: Coin, Egg, Planet",
-                    "prompt_t2i": "Create a captivating image that showcases the curvature differences between a coin, an egg, and a planet. Utilize a soft spotlight effect to illuminate the objects, making their curves stand out against a dark background.Realistic."
-                }
-            ],
-            "Symmetry": [
-                {
-                    "gt": [
-                        "Random Scribble",
-                        "Butterfly",
-                        "Snowflake"
-                    ],
-                    "prompt_llm": "Rank these objects from the least symmetry to the most symmetry: Random Scribble, Butterfly, Snowflake",
-                    "prompt_t2i": "Create an engaging image that highlights the symmetry differences between a random scribble, a butterfly, and a snowflake. Use bright, even lighting to make the symmetrical features pop, and arrange the objects in a balanced composition.Realistic."
-                },
-                {
-                    "gt": [
-                        "Freehand Drawing",
-                        "Starfish",
-                        "Flower"
-                    ],
-                    "prompt_llm": "Rank these objects from the least symmetry to the most symmetry: Freehand Drawing, Starfish, Flower",
-                    "prompt_t2i": "Create a vibrant image that emphasizes the symmetry differences among a freehand drawing, a starfish, and a flower. Use natural lighting to enhance the colors and details, and place the objects in a way that highlights their symmetrical attributes.Realistic."
-                },
-                {
-                    "gt": [
-                        "Abstract Art",
-                        "Leaf",
-                        "Crystal"
-                    ],
-                    "prompt_llm": "Rank these objects from the least symmetry to the most symmetry: Abstract Art, Leaf, Crystal",
-                    "prompt_t2i": "Create a thought-provoking image that showcases the symmetry differences between abstract art, a leaf, and a crystal. Use soft, diffused lighting to create a serene atmosphere, allowing the symmetry of each object to shine through.Realistic."
-                }
-            ],
-            "Edge Number": [
-                {
-                    "gt": [
-                        "Clock",
-                        "Paper",
-                        "Jigsaw Puzzle Piece"
-                    ],
-                    "prompt_llm": "Rank these objects from the least number of edges to the most number of edges: Clock, Paper, Jigsaw Puzzle Piece",
-                    "prompt_t2i": "Create an image that emphasizes the edge number differences between a clock, a piece of paper, and a jigsaw puzzle piece. Use focused lighting to highlight the edges, making them more prominent against a simple background.Realistic."
-                },
-                {
-                    "gt": [
-                        "Moon",
-                        "Picnic Blanket",
-                        "Snowflake"
-                    ],
-                    "prompt_llm": "Rank these objects from the least number of edges to the most number of edges: Moon, Picnic Blanket, Snowflake",
-                    "prompt_t2i": "Create an image that showcases the edge number differences among the moon, a picnic blanket, and a snowflake. Use soft ambient lighting to create a gentle contrast, allowing the unique edge profiles of each object to be visible.Realistic."
-                },
-                {
-                    "gt": [
-                        "Coin",
-                        "Table",
-                        "Starfish"
-                    ],
-                    "prompt_llm": "Rank these objects from the least number of edges to the most number of edges: Coin, Table, Starfish",
-                    "prompt_t2i": "Create an image that highlights the edge number differences between a coin, a table, and a starfish. Use dramatic lighting to create interesting shadows and emphasize the various edges of the objects.Realistic."
-                }
-            ]
-        }
-    }
+  {
+    "concept": "shape",
+    "sub_concepts": [
+      {
+        "name": "symmetry",
+        "samples": [
+          {
+            "gt": ["boulder", "book", "sunflower"],
+            "prefix": "Consider a book, a boulder, and a sunflower. Rank these objects from the least to the most symmetry axis.",
+            "t2i_prompt": "A realistic image with a sunflower, a boulder, and a book. With the magnitude of SYMMETRY significantly higher for the sunflower, and the magnitude of SYMMETRY significantly lower for the boulder."
+          },
+          {
+            "gt": ["rock", "door", "starfish"],
+            "prefix": "Consider a starfish, a rock, and a door. Rank these objects from the least to the most symmetry axis.",
+            "t2i_prompt": "A realistic image with a starfish, a rock, and a door. With the magnitude of SYMMETRY significantly higher for the starfish, and the magnitude of SYMMETRY significantly lower for the rock."
+          },
+          {
+            "gt": ["pebble", "fern", "snowflake"],
+            "prefix": "Consider a fern, a snowflake, and a pebble. Rank these objects from the least to the most symmetry axis.",
+            "t2i_prompt": "A realistic image with a snowflake, a pebble, and a fern. With the magnitude of SYMMETRY significantly higher for the snowflake, and the magnitude of SYMMETRY significantly lower for the pebble."
+          }
+        ]
+      },
+      {
+        "name": "curvature",
+        "samples": [
+          {
+            "gt": ["cloud", "spoon", "basketball"],
+            "prefix": "Consider a spoon, a basketball, and a cloud. Rank these objects from the least uniform to the most uniform curvature.",
+            "t2i_prompt": "A realistic image with a basketball, a cloud, and a spoon. With the magnitude of CURVATURE significantly more uniform for the basketball, and the magnitude of CURVATURE significantly less uniform for the cloud."
+          },
+          {
+            "gt": ["toast", "tree branch", "orange"],
+            "prefix": "Consider an orange, a toast, and a tree branch. Rank these objects from the least uniform to the most uniform curvature.",
+            "t2i_prompt": "A realistic image with an orange, a tree branch, and a toast. With the magnitude of CURVATURE significantly more uniform for the orange, and the magnitude of CURVATURE significantly less uniform for the toast."
+          },
+          {
+            "gt": ["coral", "scythe", "pear"],
+            "prefix": "Consider a scythe, a pear, and a coral. Rank these objects from the least uniform to the most uniform curvature.",
+            "t2i_prompt": "A realistic image with a pear, a scythe, and a coral. With the magnitude of CURVATURE significantly more uniform for the pear, and the magnitude of CURVATURE significantly less uniform for the coral."
+          }
+        ]
+      },
+      {
+        "name": "edge",
+        "samples": [
+          {
+            "gt": ["wheel", "book", "starfish"],
+            "prefix": "Consider the outline of the front of a starfish, a wheel, and a book. Rank these objects from the fewest to the most edges.",
+            "t2i_prompt": "A realistic image with a wheel, a book, and a starfish. With the magnitude of EDGE significantly higher for the starfish, and the magnitude of EDGE significantly lower for the wheel."
+          },
+          {
+            "gt": ["egg", "brick", "snowflake"],
+            "prefix": "Consider the outline of the front of an egg, a brick, and a snowflake. Rank these objects from the fewest to the most edges.",
+            "t2i_prompt": "A realistic image with an egg, a brick, and a snowflake. With the magnitude of EDGE significantly higher for the snowflake, and the magnitude of EDGE significantly lower for the egg."
+          },
+          {
+            "gt": ["pyramid", "picture frame", "sunflower"],
+            "prefix": "Consider the outline of the front of a sunflower, a pyramid, and a picture frame. Rank these objects from the fewest to the most edges.",
+            "t2i_prompt": "A realistic image with a pyramid, a picture frame, and a sunflower. With the magnitude of EDGE significantly higher for the picture frame, and the magnitude of EDGE significantly lower for the pyramid."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "concept": "color",
+    "sub_concepts": [
+      {
+        "name": "hue",
+        "samples": [
+          {
+            "gt": ["Amber gemstone", "eggplant", "Clay brick"],
+            "prefix": "Consider a eggplant, an amber gemstone, and a clay brick. Rank these objects from the most bluish to the most reddish hue.",
+            "t2i_prompt": "A realistic image with a eggplant, an amber gemstone, and a clay brick. The eggpant has a bluish hue, the gemstone has a yellowish hue, and the brick has a reddish hue."
+          },
+          {
+            "gt": ["Honeycomb", "Terracotta pottery", "Sapphire"],
+            "prefix": "Consider a sapphire, a honeycomb, and terracotta pottery. Rank these objects from the most bluish to the most reddish hue.",
+            "t2i_prompt": "A realistic image showing a sapphire, a honeycomb, and terracotta pottery. The sapphire has a bluish hue, the honeycomb has a yellowish hue, and the pottery has a reddish hue."
+          },
+          {
+            "gt": ["Mussel shell", "Rusty metal", "Tawny owl feather"],
+            "prefix": "Consider a mussel shell, a tawny owl feather, and rusty metal. Rank these objects from the most bluish to the most reddish hue.",
+            "t2i_prompt": "A realistic image with a mussel shell, tawny owl feather, and rusty metal. The shell has a bluish hue, the feather has a yellowish hue, and the metal has a reddish hue."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "concept": "size",
+    "sub_concepts": [
+      {
+        "name": "volume",
+        "samples": [
+          {
+            "gt": ["bear", "tree", "mountain range"],
+            "prefix": "Consider a tree, a mountain range, and a bear. Rank these objects from the smallest to the largest volume.",
+            "t2i_prompt": "A realistic image with a bear, a tree, and a mountain range. With the magnitude of VOLUME significantly larger for the mountain range, and the magnitude of VOLUME significantly smaller for the bear."
+          },
+          {
+            "gt": ["pebble", "house", "island"],
+            "prefix": "Consider a house, a pebble, and an island. Rank these objects from the smallest to the largest volume.",
+            "t2i_prompt": "A realistic image with a pebble, a house, and an island. With the magnitude of VOLUME significantly larger for the island, and the magnitude of VOLUME significantly smaller for the pebble."
+          },
+          {
+            "gt": ["grain of rice", "car", "valley"],
+            "prefix": "Consider a car, a valley, and a grain of rice. Rank these objects from the smallest to the largest volume.",
+            "t2i_prompt": "A realistic image with a grain of rice, a car, and a valley. With the magnitude of VOLUME significantly larger for the valley, and the magnitude of VOLUME significantly smaller for the grain of rice."
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "concept": "texture",
+    "sub_concepts": [
+      {
+        "name": "directionality",
+        "samples": [
+          {
+            "gt": ["cheese wedge", "chainmail", "zebra"],
+            "prefix": "Consider a cheese wedge, a chainmail, and a zebra. Rank these objects from the least to the most uniform directionality.",
+            "t2i_prompt": "A realistic image with a cheese wedge, a chainmail, and a zebra. The cheese wedge has a spotted, irregular texture, the chainmail displays an interwoven pattern, and the zebra has parallel, directional stripes, with the magnitude of DIRECTIONALITY significantly higher for the zebra."
+          },
+          {
+            "gt": ["sponge", "basket", "barcode"],
+            "prefix": "Consider a sponge, a basket, and a barcode. Rank these objects from the least to the most uniform directionality.",
+            "t2i_prompt": "A realistic image with a sponge, a basket, and a barcode. The sponge has a rough, spotted texture, the basket has interwoven, slightly directional fibers, and the barcode has clearly defined parallel stripes, with the magnitude of DIRECTIONALITY significantly higher for the barcode."
+          },
+          {
+            "gt": ["cheetah", "fish net", "american flag"],
+            "prefix": "Consider a cheetah, a fish net, and an American flag. Rank these objects from the least to the most uniform directionality.",
+            "t2i_prompt": "A realistic image with a cheetah, a fish net, and an American flag. The cheetah has irregular, spotted fur, the fish net has an interwoven structure, and the American flag displays clearly defined alternating stripes, with the magnitude of DIRECTIONALITY significantly higher for the American flag."
+          }
+        ]
+      },
+      {
+        "name": "fineness",
+        "samples": [
+          {
+            "gt": ["rope", "basketball", "silk curtain"],
+            "prefix": "Consider a silk curtain, a basketball, and rope. Rank these objects from the lowest to the highest fineness.",
+            "t2i_prompt": "A realistic image with a silk curtain, a basketball, and rope. The silk curtain has the highest fineness, smooth with no bumps, the basketball has medium fineness, with visible texture but still almost pure, and the rope has the lowest fineness, full of visible bumps and unevenness."
+          },
+          {
+            "gt": ["tree bark", "waffle", "pillow"],
+            "prefix": "Consider a pillow, tree bark, and a waffle. Rank these objects from the lowest to the highest fineness.",
+            "t2i_prompt": "A realistic image with a pillow, a waffle, and tree bark. The pillow has the highest fineness, smooth and soft, the waffle has medium fineness, with visible texture but almost pure, and the tree bark has the lowest fineness, full of rough, uneven bumps."
+          },
+          {
+            "gt": ["pebble road", "tennis ball", "dress"],
+            "prefix": "Consider a dress, a pebble road, and a tennis ball. Rank these objects from the lowest to the highest fineness.",
+            "t2i_prompt": "A realistic image with a dress, a tennis ball, and a pebble road. The dress has the highest fineness, smooth and pure, the tennis ball has medium fineness, with visible texture but almost pure, and the pebble road has the lowest fineness, full of rough, uneven pebbles."
+          }
+        ]
+      },
+      {
+        "name": "regularity",
+        "samples": [
+          {
+            "gt": ["bouquet", "cracked earth", "plaid shirt"],
+            "prefix": "Consider a bouquet, cracked earth, and a plaid shirt. Rank these objects from the lowest to the highest regularity, where low regularity means more randomness and high regularity means a clearly structured, repeating pattern.",
+            "t2i_prompt": "A realistic image of a bouquet of flowers, cracked earth, and a plaid shirt. The bouquet is randomly arranged, cracked earth has irregular patterns, and the plaid shirt has a structured, repeating striped pattern."
+          },
+          {
+            "gt": ["haystack", "gravel path", "brick wall"],
+            "prefix": "Consider a haystack, gravel path, and a brick wall. Rank these objects from the lowest to the highest regularity, with low regularity being random and high regularity being uniform and structured.",
+            "t2i_prompt": "A realistic image of a haystack, gravel path, and brick wall. The haystack is a disorganized pile, the gravel path has irregular stone arrangements, and the brick wall has uniform, repeating bricks."
+          },
+          {
+            "gt": ["pile of leaves", "wooden deck", "checkerboard"],
+            "prefix": "Consider a pile of leaves, a wooden deck, and a checkerboard. Rank these objects from the lowest to the highest regularity, where low regularity is more random and high regularity is highly structured.",
+            "t2i_prompt": "A realistic image of a pile of leaves, a wooden deck, and a checkerboard. The pile of leaves is chaotic, the wooden deck has some organized planks, and the checkerboard has an even, repeating pattern."
+          }
+        ]
+      },
+      {
+        "name": "reflectivity",
+        "samples": [
+          {
+            "gt": ["candle", "granite countertop", "river"],
+            "prefix": "Consider a granite countertop, a river, and candle. Rank these objects from the lowest to the highest reflectivity.",
+            "t2i_prompt": "A realistic image with a river, a granite countertop, and candle. With the magnitude of REFLECTIVITY significantly higher for the river, and the magnitude of REFLECTIVITY significantly lower for the candle."
+          },
+          {
+            "gt": ["soil", "lake", "mirror"],
+            "prefix": "Consider a lake, a mirror, and soil. Rank these objects from the lowest to the highest reflectivity.",
+            "t2i_prompt": "A realistic image with a mirror, a lake, and soil. With the magnitude of REFLECTIVITY significantly higher for the mirror, and the magnitude of REFLECTIVITY significantly lower for the soil."
+          },
+          {
+            "gt": ["moss", "pond", "aluminum foil"],
+            "prefix": "Consider aluminum foil, moss, and a pond. Rank these objects from the lowest to the highest reflectivity.",
+            "t2i_prompt": "A realistic image with aluminum foil, a pond, and moss. With the magnitude of REFLECTIVITY significantly higher for the aluminum foil, and the magnitude of REFLECTIVITY significantly lower for the moss."
+          }
+        ]
+      },
+      {
+        "name": "transparency",
+        "samples": [
+          {
+            "gt": ["brick", "plastic film", "glass"],
+            "prefix": "Consider plastic film, a brick, and glass. Rank these objects from the lowest to the highest transparency.",
+            "t2i_prompt": "A realistic image with glass, a brick, and plastic film. With the magnitude of TRANSPARENCY significantly higher for the glass, and the magnitude of TRANSPARENCY significantly lower for the brick."
+          },
+          {
+            "gt": ["concrete wall", "plastic sheet", "car windshield"],
+            "prefix": "Consider a clear plastic sheet, a concrete wall, and car windshield. Rank these objects from the lowest to the highest transparency.",
+            "t2i_prompt": "A realistic image with a car windshield, a concrete wall, and a clear plastic sheet. With the magnitude of TRANSPARENCY significantly higher for the window pane, and the magnitude of TRANSPARENCY significantly lower for the concrete wall."
+          },
+          {
+            "gt": ["pillow", "silk curtain", "empty glass"],
+            "prefix": "Consider an empty glass, a pillow, and a silk curtain. Rank these objects from the lowest to the highest transparency.",
+            "t2i_prompt": "A realistic image with an empty glass, a pillow, and a silk curtain. With the magnitude of TRANSPARENCY significantly higher for the acrylic block, and the magnitude of TRANSPARENCY significantly lower for the pillow."
+          }
+        ]
+      }
+    ]
+  }
 ]
